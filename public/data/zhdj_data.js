@@ -1,0 +1,88 @@
+﻿var mainArray=[{//走进崇德
+topTitle:"党建咨询",
+showArr:[{
+			menuTitle:'党建动态',type:"0",
+			img:"../public/image/tsjd0_0.jpg",
+			listArray:[
+				{title:"鄜州大地党旗红",img:'img/0_0_0.jpg',url:"../templet/video.html"},
+				{title:"鄜州大地党旗红",img:'img/0_0_0.jpg',url:"../templet/video.html"},
+				{title:"鄜州大地党旗红",img:'img/0_0_0.jpg',url:"../templet/video.html"}
+			]
+		},{
+			menuTitle:'基层动态',type:"1",
+			img:"../public/image/tsjd0_1.jpg",
+			listArray:[
+				{title:"AAAAA级景点景点地址",img:'../public/image/ceshi.jpg',url:"../templet/nr.html"},
+				{title:"AAAAA级景点景点地址22",img:'../public/image/ceshi.jpg',url:"../templet/nr.html"},
+				{title:"AAAAA级景点景点地址33",img:'../public/image/ceshi.jpg',url:"../templet/nr.html"},
+			]
+		},{
+			menuTitle:'先锋模范',type:"0",
+			img:"../public/image/tsjd0_2.jpg",
+			listArray:[
+				{title:"AAAA级景点景点地址",url:"../templet/nr.html"}
+			]
+		}
+]},{//基层公开
+topTitle:"组织管理",
+showArr:[{
+			menuTitle:'党组织',type:"0",
+			img:"../public/image/tsjd1_1.jpg",
+			listArray:[
+				{title:"景点地址",url:"../templet/nr.html"}
+			]
+		},{
+			menuTitle:'流动党员',type:"1",
+			img:"../public/image/tsjd1_0.jpg",
+			listArray:[
+				{title:"景点地址",url:"../templet/nr.html"}
+			]
+		},{
+			menuTitle:'全景支部',type:"0",
+			img:"../public/image/tsjd1_2.jpg",
+			listArray:[
+				{title:"景点地址：宁夏银川市老城",url:"../templet/nr.html"}
+			]
+		},{
+			menuTitle:'组织生活会',type:"1",
+			img:"../public/image/tsjd1_3.jpg",
+			listArray:[
+				{title:"景点地址：08:00-18:00",url:"../templet/nr.html"}
+			]
+		},{
+			menuTitle:'民主评议',type:"1",
+			img:"../public/image/tsjd1_3.jpg",
+			listArray:[
+				{title:"景点地址：08:00-18:00",url:"../templet/nr.html"}
+			]
+		}
+]},
+{//基层公开
+topTitle:"在线教育",
+showArr:[{
+			menuTitle:'高层声音',type:"0",
+			img:"../public/image/tsjd1_1.jpg",
+			listArray:[
+				{title:"景点地址：宁夏回族自治区首府银川市西北50公里的国家级自然保护区内</br>门票信息：成人门票55.00元/人</br>开发时间：07:00-18:00",url:"1_0.htm"}
+			]
+		},{
+			menuTitle:'党报党刊',type:"0",
+			img:"../public/image/tsjd1_0.jpg",
+			listArray:[
+				{title:"景点地址：宁夏银川市贺兰县金山乡境内；宁夏与内蒙古交界处</br>门票信息：学生门票：40.00元；成人门票：70.00元</br>开发时间：08:00-18:00",url:"1_0.htm"}
+			]
+		},{
+			menuTitle:'流动党员找组织',type:"1",
+			img:"../public/image/tsjd1_2.jpg",
+			listArray:[
+				{title:"景点地址：宁夏银川市老城区西北约50多千米的贺兰山东麓的拜寺口内</br>门票信息：学生门票：40.00元；成人门票：70.00元</br>开发时间：08:00-17:00",url:"1_0.htm"}
+			]
+		},{
+			menuTitle:'党务知识',type:"0",
+			img:"../public/image/tsjd1_3.jpg",
+			listArray:[
+				{title:"景点地址：宁夏银川市贺兰县金山乡境内；宁夏与内蒙古交界处</br>门票信息：学生门票：40.00元；成人门票：70.00元</br>开发时间：08:00-18:00",url:"1_0.htm"}
+			]
+		}
+]}
+];

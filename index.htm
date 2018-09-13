@@ -1,0 +1,186 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+<meta name=page-view-size content=1280*720>
+<title>陕西县级党政平台</title>
+<link rel="stylesheet" href="" />
+<link rel="stylesheet" type="text/css" href="public/css/index.css">
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video-js.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video.js"></script>
+<script src="public/js/videojs-contrib-hls.js"></script> -->
+<script>
+function myFunction(){
+	var videos = document.getElementById('videoTag'); 
+	videos.loop = 'loop';
+	videos.play();
+	
+}
+</script>
+</head>
+
+<body style="background: url(public/img/bg.png) no-repeat;height:720px;width:1280px;overflow:hidden;"  bgcolor="transparent" onLoad="init();">
+
+<div style="position: absolute; top: 68px; left: 54px;"><img id="logo" src="public/img/logo.png" width="63" height="57" style="margin-right: 10px;" /><img id="logo_sub" src="public/img/logo_sub.png" width="97" height="56" />
+</div>
+<div class="line"></div>
+<div class="des">县级党政集中宣传平台</div>
+<!--right-->
+<div class="rightTip">
+    <div class="regionMark" id="regionMark"></div>
+    <div class="region">
+    	<span id="cityName"></span>
+    	<span style="position: absolute;top:-10px;"></span>
+    	<span id="countryName"></span>
+    </div>
+    <div class="line line2"></div>
+    <div class="weather">
+    	<span id="weatherType"></span>
+    	<span id="temp"></span>
+    </div>
+    <div id="localtime" class="localtime"></div>
+    
+</div>
+
+
+<div class="tvIcon" style="position: absolute; top: 188px; left: 60px;"><img src="public/img/tv_icon.png" width="104" height="30" /></div>
+
+<div class="menu" style="position:absolute;left:518px;top:182px;min-width: 700px;">
+	<div id="top0" class="top" style="left:0px;"><img src="public/img/top2_0.png" id="img0"/>魅力<span id="code0" ></span></div>
+	<div id="top1" class="top" style="left:149px;"><img src="public/img/top3_0.png" id="img1"/>人文<span id="code1"></span></div>
+	<div id="top2" class="top" style="left:298px;"><img src="public/img/top4_0.png" id="img2"/>幸福<span id="code2"></span></div>
+</div>
+<div class="index_video" id="video0" style="width: 456px;height: 261px;">
+	<!-- <video src=""></video> -->
+	<!-- <img src="public/img/index_video.png" alt="" class="focu_posi"/> -->
+	<!-- <iframe src="HLSPlayer/video11.html" frameborder="0" style="width: 445px;height: 250px;overflow: hidden;position: absolute;left: 5px;top:5px;" ></iframe> -->
+	<!-- <video id="example-video" style="width:456px;height:261px;" class="video-js vjs-default-skin vjs-big-play-centered" preload="auto"  controls data-setup='{}' autoplay="autoplay" webkit-playsinline='true' playsinline='true'>
+	  	
+	  	<source src="http://192.168.1.250/hls/www.m3u8" type="application/x-mpegURL">
+	  	
+	</video> -->
+	<!--video style="width:456px;height:261px;" loop="loop" id="show">
+		<source src="http://192.168.1.250/hls/FDASDFSDFDFF5555.mp4" type="video/mp4" />
+	</video-->
+	<!-- <video id="videoTag" src="http://192.168.1.250/hls/FDASDFSDFDFF5555.mp4" controls="controls" height="210px" width="380px"></video> -->
+
+	<!--iframe src="http://192.168.1.250/sxxjrmt/video.html" frameborder="0"></iframe-->
+
+</div>
+<div  class="zhibo" >
+	<img src="public/img/zhibo.png" class="focu_posi">
+	<img src="public/img/zhibo_dy.png" class="dy_zhibo">
+</div>
+<div  class="dianbo" >
+	<img src="public/img/dianbo.png" class="focu_posi">
+	<img src="public/img/dianbo_dy.png" class="dy_dianbo">
+</div>
+<div id="video1" style="position: absolute;width: 225px;height: 70px;top: 505px;left: 60px;"></div>
+<div id="video2" style="position: absolute;width: 225px;height: 70px;top: 505px;left: 288px;"></div>
+<div class="content">
+	<div id="R0" style="position:absolute;left:5px; width:485px;  visibility: visible;background-repeat:no-repeat;">
+		    <div id="div0_0" class="menuUp indexItem" style="margin-bottom: 14px;position: absolute;left:4px;width: 153px;height: 166px;"> 
+		    	<img src="public/img/ys0.png" id="R0_0" class="focu_posi"/>
+		    	
+		    </div>
+		    <div id="div0_1" style="margin-bottom: 14px;width: 153px;height: 166px;position: absolute;left:160px;">
+		    	<img src="public/img/ys1.png" id="R0_1" class="focu_posi indexItem"/>
+		    	
+		    </div>
+		    <div id="div0_2" style="margin-bottom: 14px;width: 153px;height: 166px;position: absolute;left:317px;"><img src="public/img/ys2.png" id="R0_2" class="focu_posi indexItem"/></div>
+		    <div id="div0_3" class="item_dy3_2">
+
+		    	<img src="public/img/zhdj_dy.png" class="dy_item" style="position: absolute;left:5px;top:170px;">
+		    </div>
+		    <div id="div0_4" class="item_dy4_2">
+		    	<img src="public/img/xczx_dy.png" class="dy_item" style="position: absolute;left:5px;top:170px;">
+		    </div>
+		    <div id="div0_5" class="item_dy5_2">
+		    	<img src="public/img/whly_dy.png" class="dy_item" style="position: absolute;left:5px;top:170px;">
+		    </div>
+		    <div style="" class="item_dy3"><img src="public/img/ys3.png" id="R0_3" class="focu_posi"/></div> 
+		    <div style="" class="item_dy4"><img src="public/img/ys4.png" id="R0_4" class="focu_posi"/></div>
+		    <div style="" class="item_dy5"><img src="public/img/ys5.png" id="R0_5" class="focu_posi"/></div>
+	</div>
+	<div id="R1" style="position:absolute;left:5px; width:471px;visibility: hidden;background-repeat:no-repeat;">
+			    <div id="div1_0" style="margin-bottom: 14px;width: 310px;height: 166px;position: absolute;left:4px;"> <img src="public/img/ys0_1.png" id="R1_0" class="focu_posi"/></div>
+			    <div id="div1_1" style="margin-bottom: 14px;width: 153px;height: 166px;position: absolute;left:316px;"><img src="public/img/ys1_1.png" id="R1_1" class="focu_posi"/></div>
+			    <div id="div1_2" class="item_dy3_2">
+			    	<img src="public/img/cyxn_s.png" class="dy_item" style="position: absolute;left:5px;top:170px;">
+			    </div>
+			    <div id="div1_3" class="item_dy4_2">
+			    	<img src="public/img/styj_s.png" class="dy_item" style="position: absolute;left:5px;top:170px;">
+			    </div>
+			    <div id="div1_4" class="item_dy5_2">
+			    	<img src="public/img/dsfw_s.png" class="dy_item" style="position: absolute;left:5px;top:170px;">
+			    </div>
+			    <div style="" class="item_dy3 R1Img_dy3"><img src="public/img/ys2_1.png" id="R1_2" class="focu_posi" /></div> 
+			    <div style="" class="item_dy4 R1Img_dy4"><img src="public/img/ys3_1.png" id="R1_3" class="focu_posi"/></div>
+			    <div style="" class="item_dy5 R1Img_dy5"><img src="public/img/ys4_1.png" id="R1_4" class="focu_posi"/></div>
+	</div>
+	<div id="R2" style="position:absolute;left:5px; width:471px;visibility: hidden;background-repeat:no-repeat;">
+			    <div id="div2_0" style="margin-bottom: 14px;width: 297px;height: 166px;position: absolute;left:4px;"> <img src="public/img/swgk.png" id="R2_0" class="focu_posi"/></div>
+			    <div id="div2_1" style="position: absolute;left:304px;top: 0px; width: 166px;height: 338px;">
+			    	<img src="public/img/cxs_s.png" class="dy_item" style="position: absolute;left:5px;top:343px;">
+			    </div>
+			    <div id="div2_2" style="position: absolute;left:4px; top:172px;width: 297px;height: 166px;">
+			    	<img src="public/img/wawc_s.png" class="dy_item" style="position: absolute;left:5px;top:170px;">
+			    </div>
+			    <div class="R2Img_dy1"><img src="public/img/cxs.png" id="R2_1" class="focu_posi"/></div>
+			    <div class="R2Img_dy2"><img src="public/img/wawc.png" id="R2_2" class="focu_posi"/></div> 
+	</div>
+</div>
+
+<!--<div style="position: absolute; top: 140px; left: 60px;"><img src="public/img/top_0.png" width="210" height="38" /></div>
+<div style="position: absolute; top: 140px; left: 450px;"><img src="public/img/top_1.png" width="210" height="38" /></div>
+<div style="position: absolute; top: 492px; left: 60px;"><img src="public/img/td1.png" width="361" height="135" /></div>
+<div style="position: absolute; top: 218px; left: 447px; width: 832px; height: 420px; overflow: hidden;">
+	<div id="img0" style="position: absolute; left:0px; top: 0; width:1111px; height: 420px; background-image: url(public/img/td0.png); transition-duration: 0.5s;"></div>
+</div>
+
+<div id="fcs_box" style="position: absolute; left: 423px; top: 195px; transition-duration: 0.5s; z-index: 20;"><img src="public/img/index_menu0_1.png" /></div>-->
+<!--镇村选择-->
+<div id="choiceSection" class="sectionList">
+    <div class="containerSection">
+    	<div id = "titleSection" class="titleSection">请选择<span id="typeSection"></span>
+    		<span id="close" style="float:right;padding-right: 15px;margin-top:15px;"><img src="public/img/close_nom.png" id="closeType"/></span>
+    	</div>
+		<div id= "contentSection" class="contentSection">
+
+		</div>
+    </div>
+</div>
+
+<div class="swiper">
+	<div class="showpic_index"><img id="showpic" src="http://192.168.1.99:8020/webRoot/upload/image/20180911/927ee2c8f36d7c22dac53b3a6b3995c5_t.jpg" width="232" height="330" /></div>
+    <div class="numBg">
+        <div class="mun" style="left:12px; background:url('public/img/numFocus.png') no-repeat;" id="num0"></div>
+        <div class="mun" style="left:32px; background:url('public/img/num.png') no-repeat;" id="num1"></div>
+        <div class="mun" style="left:48px; background:url('public/img/num.png') no-repeat;" id="num2"></div>
+    </div>
+</div>
+<div style="position: absolute; top: 650px; left: 60px;"><img src="public/img/bottom.png" width="1160" height="43" /></div>
+<div style="position: absolute; left: 160px; top: 650px; width: 700px; height: 42px; line-height: 42px; overflow: hidden; font-size: 25px; color: #c6d6e7; z-index: 1;">
+  <marquee direction="left" width="701" behavior="scroll" scrollamount="3" id="marqueeContent">
+  滚动信息条，可自行添加内容
+  </marquee>
+</div>
+<script language="javascript" src="public/js/key.js"></script>
+<script type="text/javascript" src="public/data/index_data.js"></script>
+<script type="text/javascript" src="public/js/common.js"></script>
+<script type=text/javascript src="public/js/time.js"></script>
+<script type="text/javascript" src="public/js/index.js"></script>
+<script type=text/javascript src="public/js/tu.js"></script>
+</body>
+<script>
+/*var player = videojs('example-video',{
+	autoplay: true
+}, function onPlayerReady() {
+    this.play()
+  });*/
+// player.play();
+
+
+
+</script>
+</html>

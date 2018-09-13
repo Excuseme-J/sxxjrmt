@@ -1,0 +1,72 @@
+.menu{
+	float: left;
+	width:189px;
+	height:42px;
+	text-align: center;
+	line-height: 42px;
+	color:#F6EEA8;
+	font-size: 28px;
+}
+.swiper{
+	position: absolute;
+	left:1000px;
+	top:172px;
+}
+.item{
+
+}
+.item div{
+	width:894px;
+	height: 46px;
+	/*border:1px solid #FF0000;*/
+	font-size: 23px;
+	line-height: 46px;
+}
+.itemPic{
+	width:444px;
+	height:106px;
+	background: url(../image/pic_bg.png);
+}
+
+.menuSecond{
+	width:189px;
+	height:59px;
+	line-height:59px;
+}
+
+.topList{
+	position:absolute;
+	top:135px; 
+	left:0px; 
+	width:1280px;
+	height:42px; 
+	background:#5E0904;
+}
+.contentlist{
+	position: absolute; 
+	left: 48px; 
+	top: 172px; 
+	width: 980px;
+	height: 386px; 
+	display:block;
+}
+.imgList1{
+	position: absolute;
+	left:31px; 
+	top:-2px;
+}
+.textList1{
+	position: absolute; 
+	left: 178px;
+	top: -2px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #F6EEA8;
+}
+.focusBase{
+	width:430px;
+	height: 105px;
+	position: absolute;
+	top:-6px;
+	left:22px;
+}

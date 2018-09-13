@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+<meta name=page-view-size content=1280*720>
+<title>本地新闻</title>
+<link href="../public/css/list.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width,height=device-height">
+<script language="javascript" src="../public/js/common.js"></script>
+<SCRIPT type=text/javascript src="../public/js/key.js"></SCRIPT>
+<script>
+var BACK_URL = "../index.htm"; //返回
+var INDEX_URL = "../index.htm"; //首页
+
+</script>
+
+<script language="javascript" src="../public/data/bdxw_data.js"></script>
+<script language="javascript" src="../public/js/index_tm_data.js"></script>
+</head>
+<body background="../public/image/bg.png" leftmargin="0" topmargin="0" onload="init()">
+<div style="position: absolute; width:311px;height:64px;left: 63px; top: 49px;background: url(../public/image/nodeSprits.png) no-repeat -634px 0px;"></div>
+<!--<div style="position: absolute; left: 1025px; top: 52px;"><img src="../public/img/btn0_0.png" width="90" height="38" id="top_btn0"></div>
+<div style="position: absolute; left: 1140px; top: 52px;"><img src="../public/img/btn1_0.png" width="90" height="38" id="top_btn1"></div>-->
+<div  class="topList">
+        <div style="position: absolute; left: 70px;" class="menu" id="menu0"></div>
+        <div style="position: absolute; left:292px;" class="menu" id="menu1"></div>
+        <div style="position: absolute; left: 514px;" class="menu" id="menu2"></div>
+        <div style="position: absolute; left: 733px;" class="menu" id="menu3"></div>
+</div>
+<div>
+    
+</div>
+<div style="background: url(../public/image/content_bg.png) "  id="list0" class="contentlist">
+    <div style="" id="list0_0" class="item">
+        <div style="position: absolute; left: 37px; top: 35px;" id="title0_0"></div>
+    </div>
+    <div style="" id="list0_1" class="item">
+        
+        <div style="position: absolute; left: 37px; top: 94px;" id="title0_1"></div>
+    </div>
+    
+    <div style="" id="list0_2" class="item">
+        
+        <div style="position: absolute; left: 37px; top: 153px;" id="title0_2"></div>
+    </div>
+    <div style="" id="list0_3" class="item">
+        
+        <div style="position: absolute; left: 37px; top: 212px;" id="title0_3"></div>
+    </div>    
+    
+    <div style="" id="list0_4" class="item">
+        
+        <div style="position: absolute; left: 37px; top: 271px;" id="title0_4"></div>
+    </div>
+    <div style="" id="list0_5" class="item">
+        <div style="position: absolute; left: 37px; top: 330px;" id="title0_5"></div>
+    </div>
+</div>
+<div style="background: url(../public/image/content_bg.png)"  id="list1" class="contentlist">
+    <div  id="list1_0" class="itemPic" style="position:absolute;top:35px;left:35px;">
+        <div class="focusBase" id="pic1_0"></div>
+        <div  class="imgList1"><img src="../public/img/tm.png" width="136" height="97" style="border-radius: 5px;" id="img1_0" /></div>
+        <div  id="title1_0" class="textList1"></div>
+    </div>
+    <div  id="list1_1" class="itemPic" style="position:absolute;top:35px;left:490px;">
+        <div class="focusBase" id="pic1_1"></div>
+        <div  class="imgList1"><img src="../public/img/tm.png" width="136" height="97" style="border-radius: 5px;" id="img1_1" /></div>
+        <div  id="title1_1" class="textList1"></div>
+    </div>
+    
+    <div  id="list1_2" class="itemPic" style="position:absolute;top:152px;left:35px;">
+        <div class="focusBase" id="pic1_2"></div>
+        <div class="imgList1"><img src="../public/img/tm.png" width="136" height="97" style="border-radius: 5px;" id="img1_2" /></div>
+        <div  id="title1_2" class="textList1"></div>
+    </div>
+    <div  id="list1_3" class="itemPic" style="position:absolute;top:152px;left:490px;">
+        <div class="focusBase" id="pic1_3"></div>
+        <div  class="imgList1"><img src="../public/img/tm.png" width="136" height="97" style="border-radius: 5px;" id="img1_3" /></div>
+        <div  id="title1_3" class="textList1"></div>
+    </div>    
+    
+    <div  id="list1_4" class="itemPic" style="position:absolute;top:268px;left:35px;">
+        <div class="focusBase" id="pic1_4"></div>
+        <div  class="imgList1"><img src="../public/img/tm.png" width="136" height="97" style="border-radius: 5px;" id="img1_4" /></div>
+        <div  id="title1_4" class="textList1"></div>
+    </div>
+    <div  id="list1_5" class="itemPic" style="position:absolute;top:268px;left:490px;">
+        <div class="focusBase" id="pic1_5"></div>
+        <div class="imgList1"><img src="../public/img/tm.png" width="136" height="97" style="border-radius: 5px;" id="img1_5" /></div>
+        <div  id="title1_5" class="textList1"></div>
+    </div>
+</div>
+
+<div class="swiper">
+    <img src="../public/image/swiper.png">
+</div>
+<div style="position: absolute; top: 598px; left:75px;"><img src="../public/img/bottom.png" width="1160" height="43" /></div>
+<div style="position: absolute; left: 160px; top: 598px; width: 700px; height: 42px; line-height: 42px; overflow: hidden; font-size: 25px; color: #c6d6e7; z-index: 1;">
+  <marquee direction="left" width="701" behavior="scroll" scrollamount="3">
+  滚动信息条，可自行添加内容
+  </marquee>
+</div>
+
+</body>
+</html>

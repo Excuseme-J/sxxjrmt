@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+<meta charset="utf-8">
+<title>纯HLS(m3u8)跨平台技术(跨平台多终端测试)HLSPlayer,m3u8Player</title>
+<meta name="description" content="支持PC终端,Android安卓终端,iOS苹果终端,WindowsPhone终端,纯HLS(m3u8)跨平台技术(跨平台多终端测试)" />
+<link rel="stylesheet" type="text/css" href="images/common.css"/>
+</head>
+<script>
+	function init(){
+		var btnId = document.getElementById("btn");
+		var img = document.getElementById("img");
+		var url = "http://192.168.1.250/hls/www.m3u8";
+		btnId.onclick = function(){
+			window.imagelistener.openImage(url);
+		}
+		img.onclick = function(){
+			alert(this.src);
+			window.imagelistener.openImage(this.src);
+		}
+	}
+</script>
+<body onload="init()">
+<button id="btn">播放</button>
+<image src="http://192.168.1.250/hls/www.m3u8" id="img"/>
+
+</body>
+
+</html>
