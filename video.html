@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<video controls="controls" loop="loop" id="show"  style="width: 400px;height: 250px;">
+  <!-- <source src="http://192.168.1.250/hls/FDASDFSDFDFF5555.mp4" type="video/mp4" /> -->
+  <source src="http://124.47.34.44:8009/webRoot/upload/video/ya20180911.mp4" type="video/mp4" />
+  <!-- <source src="../hls/FDASDFSDFDFF5555.mp4" type="video/mp4" /> -->
+	Your browser does not support the video tag.
+</video>
+
+</body>
+<script>
+	//http://124.47.34.44:8009/webRoot/upload/video/ya20180911.mp4
+	var show = document.getElementById("show");
+	show.onclick = function(){
+
+		this.play();
+	}
+
+	show.onclick();
+	
+</script>
+</html>
